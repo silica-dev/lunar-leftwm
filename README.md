@@ -22,5 +22,5 @@ you can either:
 * [uzuto/cosmos-dots](https://github.com/uzuto/cosmos-dots): boilerplate for polybar, color scheme, certain modules, the bi-bd trick
 * [polybar/polybar-scripts](https://github.com/polybar/polybar-scripts): scripts
 
-*when the moon's reaching stars, if you hold me tight*
+*when the moon's reaching stars, if you hold me tight,*  
 *feeling heart beat so close, will this last long?*
