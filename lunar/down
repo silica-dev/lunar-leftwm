@@ -13,4 +13,4 @@ pkill compton
 pkill picom
 pkill polybar
 pkill conky
-
+pkill easyeffects

@@ -1,4 +1,4 @@
-# lunar-leftwm
+[#](#) lunar-leftwm
 my config for leftwm
 
 # dependencies
