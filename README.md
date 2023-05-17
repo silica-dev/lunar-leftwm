@@ -17,6 +17,7 @@ you can either:
 # Screenshots
 
 ![full screenshot](https://github.com/Silicasandwhich/lunar-leftwm/blob/solar/screenshots/solar.png?raw=true)
+![onagre](https://github.com/Silicasandwhich/lunar-leftwm/blob/solar/screenshots/onagre.png?raw=true)
 
 # Thanks To
 * [b4skyx/leftwm-soothe](https://github.com/b4skyx/leftwm-soothe): boilerplate for theme directory
