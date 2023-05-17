@@ -6,6 +6,7 @@ my config for leftwm
 * polybar
 * picom
 * feh
+* onagre
 
 
 # install
@@ -23,5 +24,5 @@ you can either:
 * [polybar/polybar-scripts](https://github.com/polybar/polybar-scripts): scripts
 * [Aenami](https://displate.com/displate/4392170) background image
 
-*when stars smile at moon, when i look in your eyes*  
+*when stars smile at moon, when i look in your eyes*
 *just dialing your number, failing to press the last two*

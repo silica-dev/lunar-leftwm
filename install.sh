@@ -17,5 +17,8 @@ echo -n "adding symlink..."
 rm ~/.config/leftwm/themes/current
 ln -s ~/.config/leftwm/themes/lunar ~/.config/leftwm/themes/current
 echo "DONE"
+echo -n "copying onagre config..."
+cp -rf onagre ~/.config
+echo "DONE"
 
 echo "Done Installing!"
