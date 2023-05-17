@@ -15,7 +15,7 @@ you can either:
 
 # Screenshots
 
-![full screenshot](https://github.com/Silicasandwhich/lunar-leftwm/blob/main/screenshots/riiiceee.png?raw=true)
+![full screenshot](https://github.com/Silicasandwhich/lunar-leftwm/blob/main/screenshots/new%20rice.png?raw=true)
 
 # Thanks To
 * [b4skyx/leftwm-soothe](https://github.com/b4skyx/leftwm-soothe): background image, boilerplate for theme directory
