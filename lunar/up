@@ -21,7 +21,7 @@ leftwm command "LoadTheme $SCRIPTPATH/theme.ron"
 
 # Set background
 if [ -x "$(command -v feh)" ]; then
-  feh --bg-scale $SCRIPTPATH/background.jpg
+  feh --bg-scale $SCRIPTPATH/maybe-transformed.jpeg
 fi
 
 # Conky

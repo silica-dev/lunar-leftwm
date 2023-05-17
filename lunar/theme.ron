@@ -2,8 +2,8 @@
 (
 	border_width: 1,
 	margin: 3,
-	workspace_margin: 10,
+	workspace_margin: 5,
 	default_border_color: "#6D8895",
 	floating_border_color: "#6D8895",
-	focused_border_color: "#FF0677",
+	focused_border_color: "#FA5C75",
 )
