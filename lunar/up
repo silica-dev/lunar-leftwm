@@ -15,6 +15,9 @@ picom &> /dev/null &
 # EasyEffects for pipewire
 easyeffects --gapplication-service &
 
+# auto lock with slock
+xss-lock -- slock &
+
 # Set the theme.toml config
 leftwm command "LoadTheme $SCRIPTPATH/theme.ron"
 
@@ -40,5 +43,5 @@ if type "xrandr"; then
     MONITOR=$m polybar -c $SCRIPTPATH/polybar/config.ini --reload bar &>> ~/.local/var/log/polybar-$monitor.log &
   done
 else
-  polybar -c $SCRIPTPATH/polybar/config.ini --reload bar &
+  polybar -c $SCRIPTPATH/polybar/config.ini --reload bar &>> ~/.local/var/log/polybar.log &
 fi
