@@ -85,5 +85,6 @@
 	(window_class: "yad", spawn_floating: true),
 	(window_class: "gnome-screenshot", spawn_floating: true),
 	(window_title: "Weston.*", spawn_on_tag: 4),
+    (window_class: "kazam", spawn_floating: true),
     ]
 )
