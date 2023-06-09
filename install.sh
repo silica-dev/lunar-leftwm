@@ -11,7 +11,8 @@ read -p "Install Lunar-Leftwm? (Y/n): " confirm && [[ $confirm == [yY] || $confi
 echo -n "copying files..."
 mkdir -p ~/.config/polybar/config &2> /dev/null
 cp -f .config/polybar/* ~/.config/polybar
-cp -rf lunar ~/.config/leftwm/themes
+mkdir ~/.config/leftwm/themes
+cp -rf lunar ~/.config/leftwm/themes/
 echo "DONE"
 echo -n "adding symlink..."
 rm ~/.config/leftwm/themes/current
