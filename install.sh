@@ -19,14 +19,16 @@ rm ~/.config/leftwm/themes/current
 ln -s ~/.config/leftwm/themes/lunar ~/.config/leftwm/themes/current
 echo "DONE"
 echo -n "copying onagre config..."
-cp -rf onagre ~/.config
+mkdir ~/.config
+cp -rf onagre ~/.config/
 echo "DONE"
 echo -n "copying alacritty config..."
-cp -f ./alacritty.yml ~/.config/alacritty
+mkdir ~/.config/alacritty
+cp -f ./alacritty.yml ~/.config/alacritty/
 echo "DONE"
 
 echo "Done Installing!"
-read -p "Copy new config file (Y/n): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] || $confirm != [Nn] ]] || exit 1
+read -p "Copy new config file? (Y/n): " confirm && [[ $confirm == [yY] || $confirm == [yY][eE][sS] || $confirm != [Nn] ]] || exit 1
 echo -n "copying leftwm config..."
 mv ~/.config/leftwm/config.ron ~/.config/leftwm/config-old.ron
 cp ./config.ron ~/.config/leftwm/config.ron
