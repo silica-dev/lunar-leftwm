@@ -10,10 +10,13 @@ ln -s $SCRIPTPATH/down /tmp/leftwm-theme-down
 
 
 # Boot picom or compton if it exists
-picom &> /dev/null &
+picom --config ~/.config/picom.conf &> /dev/null &
 
 # EasyEffects for pipewire
 easyeffects --gapplication-service &
+
+# auto lock with slock
+xss-lock -- slock &
 
 # Set the theme.toml config
 leftwm command "LoadTheme $SCRIPTPATH/theme.ron"
@@ -21,7 +24,7 @@ leftwm command "LoadTheme $SCRIPTPATH/theme.ron"
 
 # Set background
 if [ -x "$(command -v feh)" ]; then
-  feh --bg-scale $SCRIPTPATH/background.jpg
+  feh --bg-scale $SCRIPTPATH/maybe-transformed.jpeg
 fi
 
 # Conky
@@ -40,5 +43,5 @@ if type "xrandr"; then
     MONITOR=$m polybar -c $SCRIPTPATH/polybar/config.ini --reload bar &>> ~/.local/var/log/polybar-$monitor.log &
   done
 else
-  polybar -c $SCRIPTPATH/polybar/config.ini --reload bar &
+  polybar -c $SCRIPTPATH/polybar/config.ini --reload bar &>> ~/.local/var/log/polybar.log &
 fi
