@@ -37,8 +37,8 @@ when using this theme, i pair it with a custom version of [Orchis-Dark](https://
 
 # Screenshots
 
-![full screenshot](https://github.com/Silicasandwhich/lunar-leftwm/blob/main/screenshots/solar.png?raw=true)
-![onagre](https://github.com/Silicasandwhich/lunar-leftwm/blob/main/screenshots/onagre.png?raw=true)
+![full screenshot](https://github.com/silica-dev/lunar-leftwm/blob/main/screenshots/solar.png?raw=true)
+![onagre](https://github.com/silica-dev/lunar-leftwm/blob/main/screenshots/onagre.png?raw=true)
 
 # Thanks To
 * [b4skyx/leftwm-soothe](https://github.com/b4skyx/leftwm-soothe): boilerplate for theme directory
